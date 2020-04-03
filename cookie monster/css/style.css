@@ -1,0 +1,32 @@
+body {
+	 background: url('../images/1-scene.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	opacity: 0.5;
+}
+#container{
+	background: #42e6f5;
+	color: black;
+	padding: 150px;
+
+}
+h1{
+	font-size: 75px;
+	
+}
+h2{
+	background: #42e6f5;
+	color: black;
+	padding: 5px;
+	border-radius: 10px;
+}
+a{
+	color:  #42e6f5;
+	text-decoration: none;
+}
